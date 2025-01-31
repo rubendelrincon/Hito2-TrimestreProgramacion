@@ -1,0 +1,34 @@
+/* Imagen de fondo que cubre toda la pantalla */
+body {
+    background-image: url('cine.webp'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white; /* Color de texto blanco para mejor visibilidad sobre el fondo */
+}
+
+/* Estilo para centrar el contenedor */
+.full-height {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el recuadro negro */
+.recuadro-negro {
+    background-color: black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estilo para los botones */
+.btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px 0;
+}
